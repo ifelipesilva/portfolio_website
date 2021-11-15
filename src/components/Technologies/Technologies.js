@@ -1,10 +1,5 @@
 import React from 'react'
-import {
-  DiFirebase,
-  DiReact,
-  DiZend,
-  MdOutlineDesignServices
-} from 'react-icons/di'
+import { DiFirebase, DiReact, DiZend, DiNancy } from 'react-icons/di'
 import {
   Section,
   SectionDivider,
@@ -52,7 +47,7 @@ const Technologies = () => (
       </ListItem>
 
       <ListItem>
-        <DiZend size="3rem" />
+        <DiNancy size="3rem" />
         <ListContainer>
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>
