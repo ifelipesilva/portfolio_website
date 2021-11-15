@@ -30,7 +30,7 @@ export default class MyDocument extends Document {
     return (
       <Html lang="en-GB">
         <Head>
-          <link href="/public/fonts/style.css" rel="stylesheet" />
+          <link href="\fonts\ClashDisplay-Variable.woff2" />
         </Head>
         <body>
           <Main />
