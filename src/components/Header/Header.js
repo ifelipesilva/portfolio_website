@@ -26,11 +26,7 @@ const Header = () => (
             marginBottom: '20'
           }}
         >
-          <Img
-            src="/logo.svg"
-            alt="logo felipe silva"
-            style={{ color: 'red' }}
-          />
+          <Img src="/logo.svg" alt="logo felipe silva" title="Felipe Silva" />
         </a>
       </Link>
     </Div1>

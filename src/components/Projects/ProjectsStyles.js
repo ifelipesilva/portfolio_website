@@ -49,7 +49,7 @@ export const Hr = styled.hr`
   height: 3px;
   margin: 20px auto;
   border: 0;
-  background: #d0bb57;
+  background: #785ef0;
 `
 
 export const Intro = styled.div`
@@ -86,11 +86,12 @@ export const ExternalLinks = styled.a`
   color: #d4c0c0;
   font-size: 1.6rem;
   padding: 1rem 1.5rem;
-  background: #6b3030;
-  border-radius: 15px;
+  background: transparent;
+  border: 1px solid #785ef0;
+  border-radius: 4px;
   transition: 0.5s;
   &:hover {
-    background: #801414;
+    background: #785ef0;
   }
 `
 
@@ -101,5 +102,8 @@ export const TagList = styled.ul`
 `
 export const Tag = styled.li`
   color: #d8bfbf;
+  background: #1c1c1c;
+  border-radius: 4px;
+  padding: 1rem;
   font-size: 1.5rem;
 `

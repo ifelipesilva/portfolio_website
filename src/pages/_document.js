@@ -9,8 +9,7 @@ export default class MyDocument extends Document {
     try {
       ctx.renderPage = () =>
         originalRenderPage({
-          enhanceApp: (App) => (props) =>
-            sheet.collectStyles(<App {...props} />),
+          enhanceApp: App => props => sheet.collectStyles(<App {...props} />)
         })
 
       const initialProps = await Document.getInitialProps(ctx)
@@ -21,7 +20,7 @@ export default class MyDocument extends Document {
             {initialProps.styles}
             {sheet.getStyleElement()}
           </>
-        ),
+        )
       }
     } finally {
       sheet.seal()
@@ -29,15 +28,15 @@ export default class MyDocument extends Document {
   }
   render() {
     return (
-      <Html lang='en-GB'>
+      <Html lang="en-GB">
         <Head>
-          <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+          <link href="/public/fonts/style.css" rel="stylesheet" />
         </Head>
         <body>
           <Main />
           <NextScript />
         </body>
       </Html>
-    );
+    )
   }
 }

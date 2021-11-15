@@ -28,6 +28,8 @@ const Hero = () => (
       <br />
       <br />
       <br />
+      <br />
+      <br />
     </LeftSection>
   </Section>
 )
