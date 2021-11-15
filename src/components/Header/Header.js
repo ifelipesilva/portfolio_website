@@ -10,7 +10,8 @@ import {
   Div3,
   NavLink,
   SocialIcons,
-  Span
+  Span,
+  Img
 } from './HeaderStyles'
 
 const Header = () => (
@@ -25,7 +26,11 @@ const Header = () => (
             marginBottom: '20'
           }}
         >
-          <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
+          <Img
+            src="/logo.svg"
+            alt="logo felipe silva"
+            style={{ color: 'red' }}
+          />
         </a>
       </Link>
     </Div1>

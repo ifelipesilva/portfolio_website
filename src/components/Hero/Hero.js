@@ -14,7 +14,7 @@ const Hero = () => (
       <SectionTitle main center>
         Hello. <br />
         I am Felipe Silva <br />
-        <Span>Developer UX/UI Designer Freelance</Span>
+        <Span>Developer / UX/UI Designer / Freelance</Span>
       </SectionTitle>
       <SectionText>
         I am a developer and UX/UI designer based in Brazil.
@@ -24,6 +24,10 @@ const Hero = () => (
       >
         Get in touch
       </Button>
+      <br />
+      <br />
+      <br />
+      <br />
     </LeftSection>
   </Section>
 )
