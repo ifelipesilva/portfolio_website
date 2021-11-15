@@ -195,8 +195,8 @@ export const ButtonBack = styled.div`
   }
 
   @media ${props => props.theme.breakpoints.sm} {
-    width: 100%;
-    height: 32px;
+    /* width: 100%;
+    height: 32px; */
     font-size: 14px;
     margin-bottom: ${({ alt }) => (alt ? '0' : '32px')};
   }

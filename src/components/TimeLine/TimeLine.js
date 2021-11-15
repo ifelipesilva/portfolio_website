@@ -138,7 +138,7 @@ const Timeline = () => {
           </CarouselButton>
         ))}
       </CarouselButtons>
-      <SectionDivider />
+      {/* <SectionDivider /> */}
     </Section>
   )
 }
