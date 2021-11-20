@@ -19,7 +19,10 @@ export const Container = styled.div`
   }
 `
 
-export const Img = styled.img``
+export const Img = styled.img`
+  width: 3rem;
+  height: 3rem;
+`
 
 export const Div1 = styled.div`
   grid-area: 1 / 1 / 2 / 2;
